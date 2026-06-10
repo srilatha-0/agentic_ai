@@ -1,0 +1,28 @@
+[project]
+name = "agenticai"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+
+requires-python = ">=3.10"
+
+dependencies = [
+    "jupyterlab>=4.5.8",
+    "notebook>=7.5.7",
+
+    # Core data science
+    "numpy>=1.26.0",
+    "pandas>=2.2.0",
+    "matplotlib>=3.8.0",
+    "scikit-learn>=1.4.0",
+
+    # LangChain ecosystem (IMPORTANT FIX)
+    "langchain>=0.2.0",
+    "langchain-core>=0.2.0",
+    "langchain-community>=0.2.0",
+    "langchain-groq>=0.1.0",
+
+    # Utilities
+    "python-dotenv>=1.0.0",
+    "requests>=2.31.0",
+]
